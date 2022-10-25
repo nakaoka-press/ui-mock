@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  background-color: aquamarine;
+  width: 85%;
+  height: 100%;
+}
+
+.sidebar {
+  background-color: cadetblue;
+  width: 15%;
+  min-width: 150px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.nav li a {
+  color: #1a1e21;
+}
+.nav li a:hover {
+  background-color: #e9ecef;
+  color: #1a1e21;
+}
+.nav li a:active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.bi-caret-up {
+  transition: all 0.3s ease;
+  position: absolute;
+  right: 1rem;
+}
+
+.nav-toggle {
+  filter: blur(0);
+  -webkit-filter: blur(0);
+}
+
+.nav-toggle[aria-expanded="true"] .bi-caret-up {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.nav-toggle .bi-caret-up {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/*# sourceMappingURL=app.css.map */

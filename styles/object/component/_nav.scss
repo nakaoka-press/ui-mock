@@ -1,0 +1,46 @@
+
+.nav {
+    li {
+        a {
+            color: #1a1e21;
+        }
+
+        a:hover {
+            background-color: #e9ecef;
+            color: #1a1e21;
+        }
+
+        a:active {
+            background-color: #0d6efd;
+            color: #fff;
+        }
+    }
+}
+
+.bi-caret-up {
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 1rem;
+}
+
+.nav-toggle {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+.nav-toggle[aria-expanded="true"] .bi-caret-up {
+    -webkit-transform: rotate(180deg);    
+    -moz-transform: rotate(180deg);        
+    -o-transform: rotate(180deg);          
+    -ms-transform: rotate(180deg);         
+    transform: rotate(180deg);
+    
+}
+
+.nav-toggle .bi-caret-up {
+    -webkit-transform: rotate(0deg);     
+    -moz-transform: rotate(0deg);        
+    -o-transform: rotate(0deg);          
+    -ms-transform: rotate(0deg);   
+    transform: rotate(0deg);
+}

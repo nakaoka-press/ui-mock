@@ -1,0 +1,10 @@
+
+.sidebar {
+    background-color: cadetblue;
+    width: 15%;
+    min-width: 150px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar { display:none; }
