@@ -8,14 +8,14 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <!-- Custom style -->
-    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="../styles/app.css">
     <title>UI mock</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="sidebar p-3 bg-white">
             <!-- brand -->
-            <a href="#" class="p-1 mb-3 text-decoration-none link-dark">
+            <a href="../index.html" class="p-1 mb-3 text-decoration-none link-dark">
                 <span class="fs-5 fw-bold">UI mock</span>
             </a>
             <hr>
@@ -24,31 +24,31 @@
                 <!-- == 受注管理 == -->
                 <li class="nav-item mb-1">
                     <!-- navOrder Header -->
-                    <a data-bs-toggle="collapse" href="#navOrderList" role="button" class="nav-item nav-link fw-bold nav-toggle" aria-expanded="false" aria-controls="navOrderList">                        
+                    <a data-bs-toggle="collapse" href="#navOrderList" role="button" class="nav-item nav-link fw-bold nav-toggle" aria-expanded="true" aria-controls="navOrderList">                        
                         <i class="bi bi-inboxes me-1"></i>
                         <span>受注管理</span>
                         <i class="bi bi-caret-up text-end"></i> 
                     </a>                                       
                     <!-- navOrderList -->
-                    <div class="collapse" id="navOrderList">
+                    <div class="collapse show" id="navOrderList">
                         <ul class="nav nav-pills flex-column mb-auto">
                             <li class="nav-item">
-                                <a href="./order/import.html" class="nav-link">
+                                <a href="../order/import.html" class="nav-link">
                                     <span class="ps-4">EDIデータ取り込み</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="./order/import_manual.html" class="nav-link">
+                                <a href="../order/import_manual.html" class="nav-link">
                                     <span class="ps-4">手動入力</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="./order/unofficial_list.html" class="nav-link">
+                                <a href="../order/unofficial_list.html" class="nav-link">
                                     <span class="ps-4">内示一覧</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="./order/unofficial_calendar.html" class="nav-link">
+                                <a href="../order/unofficial_calendar.html" class="nav-link active">
                                     <span class="ps-4">内示カレンダー</span>
                                 </a>
                             </li>
